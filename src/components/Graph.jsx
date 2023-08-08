@@ -19,7 +19,7 @@ const graphData = {
 };
 
 const Graph = ({ data, type, onRemove, id }) => {
-  let xAxisTitle = 'Seconds';
+  let xAxisTitle = 'Time';
   let yAxisTitle = null;
   let title = null;
   switch (type) {
